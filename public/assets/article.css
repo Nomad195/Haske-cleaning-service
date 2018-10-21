@@ -8,7 +8,7 @@ body{
     position: relative;
     top:0;
     bottom:  0;
-    height: 290vh;
+    height: 350vh;
     z-index:  -10;
     border-color: white !important;
 }
