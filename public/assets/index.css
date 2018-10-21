@@ -1,0 +1,546 @@
+body{
+    margin:  0px;
+}
+
+#hero{
+    background-image: url("images/cleaningToilet.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top:0;
+    bottom:  0;
+    height: 50vh;
+    z-index:  -10;
+}
+
+#hero-overlay{
+    position:  absolute;
+    top:0;
+    bottom:0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#hero h3{
+    color:white;
+    font-size: 29px;
+}
+
+#hero p{
+    color:white;
+    font-size: 16px;
+    font-family: 'Lobster', cursive;
+}
+.iimg{
+      background-image: url("images/livingRoom.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    top:0;
+    bottom:  0;
+    height: 40vh;
+    z-index:  -10;
+    border-color: white !important;
+}
+.iimg2{
+      background-image: url("images/bedRoom.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    top:0;
+    bottom:  0;
+    height: 40vh;
+    z-index:  -10;
+    border-color: white !important;
+}
+.iimg3{
+      background-image: url("images/bathRoom.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    top:0;
+    bottom:  0;
+    height: 40vh;
+    z-index:  -10;
+    border-color: white !important;
+}
+.iimg4{
+      background-image: url("images/childsRoom.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    top:0;
+    bottom:  0;
+    height: 40vh;
+    z-index:  -10;
+    border-color: white !important;
+}
+.iimg5{
+    background-image: url("images/vacuuming.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 40vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+.iimg6{
+    background-image: url("images/furniturepolishing.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 40vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+.iimg7{
+    background-image: url("images/fumugation.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 40vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+.iimg8{
+    background-image: url("images/movingin.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 40vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+
+.iimg9{
+    background-image: url("images/office-space.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 40vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+
+.iimg10{
+    background-image: url("images/generalcleaning.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 40vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+
+.iimg11{
+    background-image: url("images/dark.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 100vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+
+.iimg12{
+    background-image: url("images/bedroom.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 100vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+
+.iimg13{
+    background-image: url("images/dining-table.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 100vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+
+.iimg14{
+    background-image: url("images/kitchen.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 100vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+.iimg15{
+    background-image: url("images/living-room-0.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 100vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+
+.iimg16{
+    background-image: url("images/decorations.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 100vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+.iimg17{
+    background-image: url("images/toilet-3.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 100vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+
+.iimg18{
+    background-image: url("images/bathtub.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 100vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+.iimg19{
+    background-image: url("images/passage-2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 100vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+.iimg20{
+    background-image: url("images/walldrobe.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  position: relative;
+  top:0;
+  bottom:  0;
+  height: 100vh;
+  z-index:  -10;
+  border-color: white !important;
+}
+
+.imgbro{
+    border-color: white; 
+}
+    .inner_container{
+    text-align: center;
+    position: absolute;
+    margin-top: 20vh;
+    width: 100%;
+}
+
+.img{
+    background-image: url("images/cleaningToilet.jpg");
+}
+
+.col-xl-4{
+    border-color: white !important;
+}
+
+.col-xl-12{
+    border-color: white !important;
+}
+#over{
+    position:  absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.over2{
+    position:  absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+    background-color: rgba(0,0,0,0.7);
+}
+.iimg h3{
+    text-align: center;
+color:white;
+font-size: 19px;
+    margin-top: 11vh;
+}
+
+.iimg2 h3{
+    text-align: center;
+color:white;
+font-size: 19px;
+    margin-top: 11vh;
+}
+
+.iimg3 h3{
+    text-align: center;
+color:white;
+font-size: 19px;
+    margin-top: 11vh;
+}
+
+.iimg4 h3{
+    text-align: center;
+color:white;
+font-size: 19px;
+    margin-top: 11vh;
+}
+
+.iimg5 h3{
+    text-align: center;
+color:white;
+font-size: 19px;
+    margin-top: 11vh;
+}
+
+.iimg6 h3{
+    text-align: center;
+color:white;
+font-size: 19px;
+    margin-top: 11vh;
+}
+
+.iimg7 h3{
+    text-align: center;
+color:white;
+    font-size: 19px;
+    margin-top: 11vh;
+}
+
+.iimg8 h3{
+    text-align: center;
+color:white;
+font-size: 19px;
+    margin-top: 11vh;
+}
+
+.iimg9 h3{
+    text-align: center;
+color:white;
+font-size: 19px;
+    margin-top: 11vh;
+}
+
+.iimg10 h3{
+    text-align: center;
+color:white;
+font-size: 19px;
+    margin-top: 11vh;
+}
+
+.iimg11 h3{
+
+    text-align: center;
+color:white;
+font-size: 30px;
+    margin-top: 60vh;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.iimg12 h3{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+        margin-top: 60vh;
+        font-family: 'Berkshire Swash', cursive;
+}
+
+.iimg13 h3{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+        margin-top: 60vh;
+        font-family: 'Berkshire Swash', cursive;
+}
+.iimg14 h3{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+        margin-top: 60vh;
+        font-family: 'Berkshire Swash', cursive;
+}
+.iimg15 h3{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+        margin-top: 60vh;
+        font-family: 'Berkshire Swash', cursive;
+}
+
+.iimg16 h3{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+        margin-top: 60vh;
+        font-family: 'Berkshire Swash', cursive;
+}
+
+.iimg17 h3{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+        margin-top: 60vh;
+        font-family: 'Berkshire Swash', cursive;
+}
+
+.iimg18 h3{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+        margin-top: 60vh;
+        font-family: 'Berkshire Swash', cursive;
+}
+
+.iimg19 h3{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+        margin-top: 60vh;
+        font-family: 'Berkshire Swash', cursive;
+}
+.linking{
+    color: white; 
+    font-size: 1vw;
+    text-decoration: none !important;
+}
+.alignment{
+    text-align: center !important;
+}
+.about-us{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+.p{
+  font-family: 'Lora', serif;
+    font-size: 12px;
+    text-align: justify;
+}
+.about-us p{
+    line-height: 10px;
+    text-align: center;
+}
+.our-services{
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.contact-us{
+    text-align: center;
+    color: gray;
+    font-size: 10px;
+    color: white;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+.contact-us:first-child{
+     margin-top: 5vh;
+}
+#over1{
+    height: 150px;
+    background-color: #2f3542;
+}
+.nav-item{
+    color:white!important;
+}
+#navigation-cover{
+    background-color: orangered;
+    padding:10px;
+}
+.navigation-child{
+    display: flex;
+    justify-content: center;
+}
+.navigation-fs-child{
+    flex-basis: 20%;
+    border-right: 1px solid white;
+}
+.navigation-fs-child:last-child{
+    flex-basis: 20%;
+    border-right: 1px solid orangered;
+}
+.nav-child-det{
+    color: #a4b0be;
+    text-decoration: none;
+    flex-basis: 70%;
+    font-size: 13px;
+    font-family: 'Kaushan Script', cursive;
+}
+.navigation-fs-child2{
+    display: flex;
+    justify-content: center;
+}
+.nav-child-det:hover{
+    color:white;
+}

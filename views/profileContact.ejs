@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="/assets/prostyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <% include partials/nav.ejs %>
+    <h1> Contact us</h1>
+    <p> Call us on 07014740355</p>
+        <h2>Hobbies</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <form id="contact-form" method="POST" action="/contact">
+        <label for="who">Who do you want to contact?</label><br>
+            <input type="text" name="who" value="<%= qs.person %>"><br><br>
+        <label for="department">Which Department</label><br>
+            <input type="text" name="departement" value="<%= qs.dept %>"><br><br>
+        <label for="email">Your Email</label><br>
+            <input type="email" name="email"/><br><br>
+            <input type="submit" value="submit" />
+        </form>
+       
+    </body>
+</html>

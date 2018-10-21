@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(0,0,0,0.7);
+    color:white;
+    font-family: 'Cinzel', serif;
+}
+.starter{
+    font-size: 19px;
+    margin-top: 30px;
+    text-align: center;
+}
+.cover{
+    display:flex;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+}
+.inn-cover0{
+    flex-basis: 40%;
+    margin-top: 10px;
+}
+.inn-cover00{
+    flex-basis: 40%;
+    margin-top: 10px;
+}
+.inn-cover0 h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.inn-cover1 p{
+    margin-top: 12px;
+}
+.inn-cover00 h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.inn-cover1{
+    flex-basis: 60%;
+    margin-top: 10px;
+}
+
+.inn-cover11{
+    flex-basis: 60%;
+    margin-top: 18px;
+}
+.inn-cover11 h3{
+    font-size: 20px;
+}
+.pricing{
+    font-size: 20px;
+    margin-top: 140px;
+}
+.pricing2{
+    font-size: 20px;
+    margin-top: 220px;
+}
+.pricing3{
+    font-size: 20px;
+    margin-top: 20px;
+}

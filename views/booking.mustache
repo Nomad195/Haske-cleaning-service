@@ -1,0 +1,231 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Customer App</title>
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+    <script src="assets/main.js"></script>    
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet">
+      
+      <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Kaushan+Script|Merienda|Roboto|Satisfy" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
+      <link rel="stylesheet" href="assets/booking.css">
+    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <style>
+   .row div{
+       padding: 20px 10px;
+       border:1px solid gray;
+   }
+   </style>
+    </head>
+    <body style="background-color: orangered;">
+
+    
+<a href="/"><i class="fas fa-arrow-circle-left"></i></a>
+
+<section class="container-fluid">
+<h2 class="centralized"> Morning Session</h2>
+<section class="row justify-content-center">
+<section class="col-12 col-sm-6 col-md-6">
+<form id="form1"  class="form-container login" method="POST" action="/clients0"">
+<h4 class="text-center font-width-bold">Booking</h4>
+  <div class="form-group">
+  
+    <input type="text" id="user" placeholder="Enter name" Name="details" autocomplete="off" class="form-control" aria-describedby="emailHelp" />
+
+  </div>
+  <div class="form-group">
+    <input class="form-control" type="text" id="numberx" placeholder="Enter Number" name="details" autocomplete="off" />
+  </div>
+  
+  <button type="submit" class="btn btn-primary btn-block submit" id="submit_btn"  onclick="addClass();">Submit</button>
+</form>
+</section>
+</section>
+
+
+<h2 class="centralized"> Afternoon Session</h2>
+<section class="row justify-content-center">
+<section class="col-12 col-sm-6 col-md-6">
+<form id="form2" class="form-container login"  method="POST" action="/clients1">
+<h4 class="text-center font-width-bold">Booking</h4>
+  <div class="form-group">
+    <input type="text" id="user1" placeholder="Enter Name" name="details1" autocomplete="off" class="form-control" aria-describedby="emailHelp" />
+  </div>
+  <div class="form-group">
+    <input type="text" id="numberx1" placeholder="Enter Number" name="details1" autocomplete="off" class="form-control" />
+  </div>
+  <button type="submit" class="btn btn-primary btn-block">Submit</button>
+</form>
+</section>
+</section>
+
+</section>
+
+
+
+
+
+
+
+
+<div class="container mother">
+<table class="table">
+<thead>
+<tr class="book">
+<th scope="col"> October </th>
+</tr>
+</thead>
+<tbody>
+<tr class="book">
+<th scope="col">Days</th>
+<th scope="col">Mon</th>
+<th scope="col">Tue</th>
+<th scope="col">Wed</th>
+<th scope="col">Thr</th>
+<th scope="col">Fri</th>
+<th scope="col">Sat</th>
+<th scope="col">Sun</th>
+</tr>
+<tr class="book">
+<th scope="col">Wk 1</th>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+</tr>
+<tr class="book">
+<th scope="col">Wk 2</th>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+</tr>
+<tr class="book">
+<th scope="col">Wk 3</th>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+</tr>
+<tr class="book">
+<th scope="col">Wk 4</th>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+<td>27</td>
+<td>28</td>
+</tr>
+<tr class="book">
+<th scope="col">Wk 5</th>
+<td>29</td>
+<td>30</td>
+<td>31</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr> 
+</tbody>
+</table>
+
+
+
+<table class="table">
+<thead>
+<tr class="book">
+<th scope="col"> November </th>
+</tr>
+</thead>
+<tbody>
+<tr class="book">
+<th scope="col">Days</th>
+<th scope="col">Mon</th>
+<th scope="col">Tue</th>
+<th scope="col">Wed</th>
+<th scope="col">Thr</th>
+<th scope="col">Fri</th>
+<th scope="col">Sat</th>
+<th scope="col">Sun</th>
+</tr>
+<tr class="book">
+<th scope="col">Wk 1</th>
+<td>29</td>
+<td>30</td>
+<td>31</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr class="book">
+<th scope="col">Wk 2</th>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+</tr>
+<tr class="book">
+<th scope="col">Wk 3</th>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+</tr>
+<tr class="book">
+<th scope="col">Wk 4</th>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+</tr>
+<tr class="book">
+<th scope="col">Wk 5</th>
+<td>26</td>
+<td>27</td>
+<td>28</td>
+<td>29</td>
+<td>30</td>
+<td>1</td>
+<td>2</td>
+</tr class="book"> 
+</tbody>
+</table>
+</div>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/dJava.js">
+</script>
+ </body>
+ </html>

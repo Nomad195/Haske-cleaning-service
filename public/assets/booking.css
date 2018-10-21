@@ -1,0 +1,84 @@
+
+body{
+    background-color: orangered;
+}
+
+#form1{
+    display: none;
+    background-color: white;
+}
+
+
+#form2{
+    display: none;
+    background-color: white;
+}
+.login{
+    background: #FFF;
+    border-radius: 20px;
+}
+.form-group{
+   border-color:  white !important;  
+}
+.form-check{
+       border-color:  white !important; 
+}
+
+.form-container{
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.input{
+    width: 20%;
+}
+.centralized{
+    display:none;
+    color: white;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.input span{
+    display: block;
+    color: gray;
+    margin-left: 580px;
+    font-size: 2vw;    
+}
+
+.input input{
+   width: 100%;
+    padding:10px 5px 10px 40px;
+    display: block;
+    border: 1px solid gray;
+    transition: 0.2s ease-out;
+    color: #a1a1a1;
+}
+
+.input input:focus{
+    padding: 11px 5px 11px 11px;
+    outline: 0;
+    border-color: #FF7052; 
+}
+
+.input input:focus + span{
+    color: orangered;
+}
+.cover{
+    background: blue;
+}
+.col-xs-6{
+    padding: 0 !important;
+}
+.book{
+    color: white;
+}
+.fas{
+    color: white;
+    font-size: 20px;
+    margin-top: 14px;
+    margin-left: 2vw;
+}
+
+

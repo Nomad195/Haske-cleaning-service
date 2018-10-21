@@ -1,0 +1,101 @@
+body{
+    color:white;
+    font-family: 'Cinzel', serif;
+    background-image: url("images/apt.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    position: relative;
+    top:0;
+    bottom:  0;
+    height: 240vh;
+    z-index:  -10;
+    border-color: white !important;
+}
+
+
+.iimg0{
+    background-image: url("images/oven.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    position: relative;
+    top:0;
+    bottom:  0;
+    height: 40vh;
+    z-index:  -2;
+    margin-top: 30px;
+    border-color: white !important;
+}
+
+.iimg1{
+    background-image: url("images/matrass.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    position: relative;
+    top:0;
+    bottom:  0;
+    height: 40vh;
+    z-index:  -2;
+    margin-top: 15px;
+    border-color: white !important;
+}
+
+.iimg3{
+    background-image: url("images/carpet.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    position: relative;
+    top:0;
+    bottom:  0;
+    height: 40vh;
+    z-index:  -2;
+    margin-top: 15px;
+    border-color: white !important;
+}
+.over{
+    position:  absolute;
+    top:-10;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+    background-color: rgba(0,0,0,0.8);
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.step-1{
+    margin-top: 20px;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.para{
+    display: flex;
+}
+
+.para p{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+.body-1{
+    display: flex;
+}
+.body-1 h3{
+    font-size: 19px;
+}
+.body-2{
+    display: flex;
+}
+.body-2 p{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
