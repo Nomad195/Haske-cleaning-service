@@ -46,7 +46,7 @@ body{
     border-color: white !important;
 }
 .iimg2{
-      background-image: url("images/bedRoom.jpg");
+      background-image: url("images/bedroom3.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -520,7 +520,7 @@ font-size: 30px;
 }
 .navigation-child{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .navigation-fs-child{
     flex-basis: 20%;
@@ -543,4 +543,7 @@ font-size: 30px;
 }
 .nav-child-det:hover{
     color:white;
+}
+.fas, .far{
+    font-size: 12px;
 }
