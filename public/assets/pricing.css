@@ -5,7 +5,7 @@ body{
 }
 .starter{
     font-size: 19px;
-    margin-top: 30px;
+    margin-top: 8vh;
     text-align: center;
 }
 .cover{
@@ -44,15 +44,4 @@ body{
 .inn-cover11 h3{
     font-size: 20px;
 }
-.pricing{
-    font-size: 20px;
-    margin-top: 140px;
-}
-.pricing2{
-    font-size: 20px;
-    margin-top: 220px;
-}
-.pricing3{
-    font-size: 20px;
-    margin-top: 20px;
-}
+
