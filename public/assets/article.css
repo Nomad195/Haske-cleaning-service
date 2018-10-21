@@ -8,7 +8,7 @@ body{
     position: relative;
     top:0;
     bottom:  0;
-    height: 240vh;
+    height: 290vh;
     z-index:  -10;
     border-color: white !important;
 }
@@ -55,6 +55,20 @@ body{
     margin-top: 15px;
     border-color: white !important;
 }
+
+.iimg4{
+    background-image: url("images/drainage.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    position: relative;
+    top:0;
+    bottom:  0;
+    height: 40vh;
+    z-index:  -2;
+    margin-top: 15px;
+    border-color: white !important;
+}
 .over{
     position:  absolute;
     top:-10;
@@ -72,7 +86,7 @@ body{
 }
 .step-1{
     margin-top: 20px;
-    font-size: 5vw;
+    font-size: 6vw;
     text-align: center;
 }
 
